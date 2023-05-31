@@ -12,7 +12,7 @@ import org.springframework.stereotype.Component;
 @EnableScheduling
 public class JobController {
 
-    @Scheduled(cron = "0/2 * * * * ?")
+    //@Scheduled(cron = "0/2 * * * * ?")
     public void test(){
         System.out.println("--启动任务了-----");
     }
